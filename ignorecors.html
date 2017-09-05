@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ignorecors</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css">
+        * {box-sizing: border-box;}
+        body {font-family: sans-serif;}
+        .wrap {
+            width: 100%;
+            max-width: 550px;
+            margin: 50px auto 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="page-header">
+            <h1>Just ignore CORS!</h1>
+        </div>
+        <p>
+            This is a simple node script (only using express and request) which will make a simple request to your provided url and returns it with correct <a href="https://enable-cors.org/server_expressjs.html" target="_blank">CORS headers</a>.
+            <br>
+            <h2>Usage</h2>
+            <pre>https://ignorecors-rvlqilkint.now.sh/?url=[full url-encoded url]</pre>
+            <h2>Notices</h2>
+            Because this is a small side project, currently only JSON is supported. Also, because it's for free there is a fair use policy. Now.sh provides 1GB of bandwidth per month, which is shared for all of you!<br>
+            You can still just use the <a href="https://github.com/CodeBrauer/ignorecors">code</a> and host it yourself with now.sh.
+        </p>
+        <div class="text-center">
+            <small>thanks to <a href="https://now.sh">now.sh</a> for their free OSS deployments.</small>
+        </div>
+    </div>
+</body>
+</html>
