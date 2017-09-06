@@ -3,7 +3,7 @@ const express = require('express');
 const app     = express();
 
 app.get('/', function(appRequest, response){
-    if ('query' in appRequest.query) {
+    if ('url' in appRequest.query) {
         request(appRequest.query.url, { json: true }, (error, result, body) => {
             if (error) { return console.log(error); }
             response.header('Access-Control-Allow-Origin', '*');
