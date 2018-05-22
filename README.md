@@ -4,7 +4,7 @@ This is a simple node script (only using express and request) which will make a 
 
 ## Usage
 ```
-https://ignorecors-rvlqilkint.now.sh/?url=[full url-encoded url]
+https://ignorecors-yipksgwdit.now.sh/?url=[full url-encoded url]
 ```
 
 ## Notices
